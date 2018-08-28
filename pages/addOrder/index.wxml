@@ -1,0 +1,13 @@
+<view>
+    <van-panel title="订餐信息">
+        <van-cell-group>
+            <van-cell title="日期">
+                <picker mode="date" value="{{date}}" bind:change="dateChange">
+                    <view>{{date}}</view>
+                </picker>
+            </van-cell>
+            <van-cell title="队友">
+            </van-cell>
+        </van-cell-group>
+    </van-panel>
+</view>

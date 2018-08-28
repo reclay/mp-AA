@@ -2,9 +2,13 @@
 App({
   onLaunch: function () {
     // 展示本地存储能力
-    var logs = wx.getStorageSync('logs') || []
-    logs.unshift(Date.now())
-    wx.setStorageSync('logs', logs)
+    wx.setStorageSync('orders', [{
+      name: 'first'
+    }, {
+      name: 'second'
+    }])
+    let orders = wx.getStorageSync('orders') || []
+    this.globalData.orders = orders;
 
     // 登录
     wx.login({
@@ -34,6 +38,7 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: {},
+    orders: []
   }
 })

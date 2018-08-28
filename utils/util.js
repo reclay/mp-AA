@@ -14,6 +14,18 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
+let routeMap = [{
+  url: '../orderList/index'
+}, {
+  url: '../memberList/index'
+}, {
+  url: '../user/index'
+}];
+
+let getUrlByIndex = (index) => {
+  return Object.assign({}, routeMap[index]);
+};
 module.exports = {
-  formatTime: formatTime
+  formatTime: formatTime,
+  getUrlByIndex
 }

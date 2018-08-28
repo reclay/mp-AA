@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "tab-comp": "../tabs/index",
+        "van-icon": "../../miniprogram_npm/vant-weapp/icon/index"
+    },
+    "navigationBarTitleText": "订餐记录"
+}

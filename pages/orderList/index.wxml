@@ -1,0 +1,6 @@
+<scroll-view scroll-y>
+    <view wx:for="{{orders}}" wx:key="{{item.name}}">
+        {{index}}{{item.name}}</view>
+    <button type="primary" bind:tap="handleAddTap">加一个</button>
+    <van-icon name="add" class="add-icon" bind:click="addOrder"></van-icon>
+</scroll-view>

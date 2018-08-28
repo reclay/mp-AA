@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "tab-comp": "../tabs/index"
+    },
+    "navigationBarTitleText": "设置"
+}

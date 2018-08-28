@@ -1,12 +1,38 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "pages": [
+        "pages/orderList/index",
+        "pages/memberList/index",
+        "pages/user/index",
+        "pages/addOrder/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/orderList/index",
+                "text": "订餐",
+                "iconPath": "./imgs/list.png",
+                "selectedIconPath": "./imgs/list-selected.png"
+            },
+            {
+                "pagePath": "pages/memberList/index",
+                "text": "队友",
+                "iconPath": "./imgs/member.png",
+                "selectedIconPath": "./imgs/member-selected.png"
+            },
+            {
+                "pagePath": "pages/user/index",
+                "text": "我",
+                "iconPath": "./imgs/me.png",
+                "selectedIconPath": "./imgs/me-selected.png"
+            }
+        ],
+        "color": "#333",
+        "selectedColor": "#3498db"
+    }
 }

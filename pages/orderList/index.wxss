@@ -1,0 +1,7 @@
+.add-icon {
+    font-size: 40px;
+    position: fixed;
+    bottom: 4px;
+    right: 4px;
+    color: #3498db
+}

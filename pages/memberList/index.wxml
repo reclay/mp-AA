@@ -1,0 +1,5 @@
+<view>
+    <button type="primary">人员管理</button>
+    <button type="primary"></button>
+    <van-button type="danger">vab</van-button>
+</view>
